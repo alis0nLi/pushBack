@@ -41,6 +41,7 @@
  */
 //#include "okapi/api.hpp"
 #include "opControl.h"
+#include "autonomous.h"
 
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
@@ -62,11 +63,11 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-void autonomous(void);
+
 void initialize(void);
 void disabled(void);
 void competition_initialize(void);
-void opcontrol(void);
+
 #ifdef __cplusplus
 }
 #endif
