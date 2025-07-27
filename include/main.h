@@ -40,8 +40,9 @@
  * You should add more #includes here
  */
 //#include "okapi/api.hpp"
-#include "opControl.h"
+#include "baseControl.h"
 #include "autonomous.h"
+#include "opControl.h"
 
 /**
  * If you find doing pros::Motor() to be tedious and you'd prefer just to do
