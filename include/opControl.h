@@ -3,3 +3,5 @@
 
 pros::Optical optical_sensor;
 
+void opControl();
+
